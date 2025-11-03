@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 // Middlewares
-app.use(cors());
+
 app.use(express.json());
 
 import authRoutes from "./routes/authRoutes.js";
