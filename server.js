@@ -22,6 +22,10 @@ app.use("/api/auth", authRoutes);
 import sessionRoutes from "./routes/sessionRoutes.js";
 app.use("/api/sessions", sessionRoutes);
 
+import skillRoutes from "./routes/skillRoutes.js";
+app.use("/api/skills", skillRoutes);
+
+
 // Test Route
 app.get("/", (req, res) => {
   res.send("Skill Share API Working ✅");
